@@ -528,6 +528,7 @@ LEXERS = {
     'VerilogLexer': ('pygments.lexers.hdl', 'verilog', ('verilog', 'v'), ('*.v',), ('text/x-verilog',)),
     'VhdlLexer': ('pygments.lexers.hdl', 'vhdl', ('vhdl',), ('*.vhdl', '*.vhd'), ('text/x-vhdl',)),
     'VimLexer': ('pygments.lexers.textedit', 'VimL', ('vim',), ('*.vim', '.vimrc', '.exrc', '.gvimrc', '_vimrc', '_exrc', '_gvimrc', 'vimrc', 'gvimrc'), ('text/x-vim',)),
+    'VueLexer': ('pygments.lexers.html', 'Vue', ('vue',), ('*.vue',), ()),
     'WDiffLexer': ('pygments.lexers.diff', 'WDiff', ('wdiff',), ('*.wdiff',), ()),
     'WatLexer': ('pygments.lexers.webassembly', 'WebAssembly', ('wast', 'wat'), ('*.wat', '*.wast'), ()),
     'WebIDLLexer': ('pygments.lexers.webidl', 'Web IDL', ('webidl',), ('*.webidl',), ()),
